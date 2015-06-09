@@ -8,6 +8,10 @@ SpecFlow is a pragmatic BDD solution for .NET. It uses the Gherkin specification
 
 [![Build status](https://ci.appveyor.com/api/projects/status/h9nb6vii9xj8vbtl/branch/v2?svg=true)](https://ci.appveyor.com/project/SpecFlow/specflow-kx1o3/branch/v2)
 
+##Distributed-SpecFlow
+Distributed-Specflow leaverages a framework where in each test step can be run on a different test machine or agent to test client-server or any other complex distributed test environments based scenarios in a more organized way.
+We see to add new keywords to the gherkins language to make this more readable and the communication across machines can be handled through a windows service which is pre installed on all agent machines.
+
 ## Contributing
 
 We are currently prepare the v2 release, developed on the `v2` branch. Please review the activities there.
